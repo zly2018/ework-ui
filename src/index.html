@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app="ework-ui">
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>eworkUI</title>
+    <!-- STYLES -->
+    <!-- build:css lib/css/main.min.css -->
+    <link rel="stylesheet" type="text/css" href="components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="components/font-awesome/css/font-awesome.min.css">
+    <!-- endbuild -->
+
+    <!-- SCRIPTS -->
+    <!-- build:js lib/js/main.min.js -->
+    <script type="text/javascript" src="components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script type="text/javascript" src="components/angular-resource/angular-resource.min.js"></script>
+    <!-- endbuild -->
+
+    <!-- 自定义的部分，构建打包成压缩资源 -->
+    <script type="text/javascript" src="js/eWorkUI.min.css"></script>
+    <script type="text/javascript" src="js/eWorkUI.min.js"></script>
+</head>
+<body ng-controller="HelloWorldCtrl">
+    <!--面包屑-->
+    <ul class="breadcrumb">
+        <li>
+            <a href="#">
+                <i class="fa fa-home"></i>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:void(0)" ng-click="hello()">{{message}}</a>
+        </li>
+    </ul>
+
+    <div class="row" align="center" ng-click="hello()">
+        <img src="img/fu01.jpg" style="width:600px;height:600px;">
+    </div>
+</body>
+</html>
