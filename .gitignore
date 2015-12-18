@@ -46,3 +46,8 @@ Icon
 
 # Bower components
 #/src/components
+
+# WebStorm files
+/.idea
+
+
