@@ -39,10 +39,10 @@ Icon
 .Trashes
 
 # Dist Directory
-/dist
+#/dist
 
 # Node modules
 /node_modules
 
 # Bower components
-/src/components
+#/src/components
