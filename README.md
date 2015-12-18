@@ -1,4 +1,3 @@
-#英文很烂，只会中文：）
 #这是一个Hello world的客户端项目开发模板项目
 #可以基于此项目构建自己的客户端项目开发
 #技术关键字：jquery、angular、bootstrap
