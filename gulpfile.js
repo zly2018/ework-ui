@@ -67,7 +67,7 @@ gulp.task('custom-less', function() {
     return gulp.src(paths.styles)
         .pipe(less())
         .pipe(concat('eWorkUI.min.css'))
-        .pipe(gulp.dest('dist/less'));
+        .pipe(gulp.dest('dist/css'));
 });
 
 gulp.task('custom-templates', function() {
