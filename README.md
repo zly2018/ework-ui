@@ -13,16 +13,10 @@
 1、基于该项目模板，克隆一个自己的项目：
 git clone https://github.com/zly2014/ework-ui.git
 
-2、项目默认安装了以下组件：参考bower.json，bower install jquery --save-dev;
-    "jquery": "~2.1.4",
-    "angular": "~1.4.8",
-    "angular-bootstrap": "~0.14.3",
-    "bootstrap": "~3.3.6",
-    "font-awesome": "~4.5.0",
-    "angular-resource": "~1.4.8"
-
-3、项目自定义的js、css、img、html等，将会构建输出到dist目录下，参考：gulpfile.js
-可以修改自定义的js、css压缩文件名字
+2、安装npm:
+    npm install --save
+3、安装gulp插件:
+    npm install gulp-usemin gulp-wrap gulp-connect gulp-watch gulp-minify-css gulp-uglify gulp-concat gulp-less gulp-rename gulp-minify-html --save
 
 4、项目构建：gulp build
 
@@ -30,6 +24,8 @@ git clone https://github.com/zly2014/ework-ui.git
 
 6、开发注意事项：
 1）link media= 'print'的样式，需要换种写法：@media print；
+
+
 
 
 
