@@ -149,38 +149,6 @@
                     ]
                 },
                 {
-                    "index":"A1070",
-                    "name":"资产管理",
-                    "icon":"fa fa-diamond",
-                    "key":"assetManagement",
-                    "href":"",
-                    "type":"",
-                    "value":"",
-                    "active":"",
-                    "menus":[
-                        {
-                            "index":"A1071",
-                            "name":"软件管理",
-                            "icon":"fa fa-cloud",
-                            "key":"softwareManagement",
-                            "href":"",
-                            "type":"",
-                            "value":"",
-                            "active":""
-                        },
-                        {
-                            "index":"A1072",
-                            "name":"硬件管理",
-                            "icon":"fa fa-cube",
-                            "key":"hardwareManagement",
-                            "href":"",
-                            "type":"",
-                            "value":"",
-                            "active":""
-                        }
-                    ]
-                },
-                {
                     "index":"A1080",
                     "name":"系统设置",
                     "icon":"fa fa-cog",

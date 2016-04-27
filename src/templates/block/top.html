@@ -21,7 +21,7 @@
 
                     <div class="top_bar_item ml {{topMenu.active=='true'||curSystem.key==topMenu.key?'top_bar_item_active':''}}" ng-repeat="topMenu in topMenus">
                         <div >
-                            <a href="javascript:void(0);" ng-click="selectSystem(topMenu)">
+                            <a href="javascript:void(0);" ng-click="selectSystem(topMenu)" class="top_menu_item">
                                <span>{{topMenu.name}}</span>
                             </a>
                         </div>

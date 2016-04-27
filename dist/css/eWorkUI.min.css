@@ -279,7 +279,7 @@ input:focus {
 .top_bar_item_active .active_arrow {
   display: block;
   position: relative;
-  right: -3px;
+  right: -8px;
   top: -40px;
   display: inline-block;
   border-right: 12px solid transparent;
@@ -443,9 +443,9 @@ a:hover {
 body {
   background: #F3F3F3 none repeat scroll 0% 0%;
 }
-.top_bar {
-  padding-left: 100px;
-}
+/*.top_bar{
+    padding-left:100px;
+}*/
 .top_photos {
   width: 50px;
   height: 50px;
@@ -453,4 +453,7 @@ body {
 }
 .self_lnfo_list {
   margin-top: 20px;
+}
+.top_menu_item {
+  padding: 5px;
 }
