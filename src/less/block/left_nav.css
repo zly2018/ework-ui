@@ -58,7 +58,48 @@ a {
 .nav .navopen{
     border-left: 3px solid #2361AE;
 }
-.nav .navopen .nav-sub li{
-    padding-left: 20px;
+@-webkit-keyframes nav_bar_show{
+    0% { padding-left:0px;}
+    20% { padding-left:4px;}
+    40% { padding-left:8px;}
+    60% { padding-left:12px;}
+    80% { padding-left:16px;}
+    100% { padding-left:20px;}
+}
+@-moz-keyframes nav_bar_show{
+    0% { padding-left:0px;}
+    20% { padding-left:4px;}
+    40% { padding-left:8px;}
+    60% { padding-left:12px;}
+    80% { padding-left:16px;}
+    100% { padding-left:20px;}
+}
+@keyframes nav_bar_show{
+    0% { padding-left:0px;}
+    20% { padding-left:4px;}
+    40% { padding-left:8px;}
+    60% { padding-left:12px;}
+    80% { padding-left:16px;}
+    100% { padding-left:20px;}
+}
+.nav_bar_li{
+    animation:nav_bar_show 0.2s ;
+    -moz-animation:nav_bar_show 0.2s ; /* Firefox */
+    -webkit-animation:nav_bar_show 0.2s ; /* Safari and Chrome */
+    -o-animation:nav_bar_show 0.2s ; /* Opera */
+    padding-left:20px;
 }
 
+.nav > .nav_bar_li:hover {
+    background-color: #EEE;
+}
+.nav > li > a {
+    cursor: pointer;
+}
+
+.nav > li > a:focus {
+    border: none;
+}
+a:focus,input:focus{
+    outline: 0px none !important;
+}

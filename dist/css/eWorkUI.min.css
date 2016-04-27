@@ -61,6 +61,43 @@ body {
 .default_arrow {
   color: #BBB;
 }
+a:focus,
+input:focus {
+  outline: 0px none !important;
+}
+@-webkit-keyframes content_body_show {
+  from {
+    margin-top: 50px;
+  }
+  to {
+    margin-top: 0px;
+  }
+}
+@-moz-keyframes content_body_show {
+  from {
+    margin-top: 50px;
+  }
+  to {
+    margin-top: 0px;
+  }
+}
+@keyframes content_body_show {
+  from {
+    margin-top: 50px;
+  }
+  to {
+    margin-top: 0px;
+  }
+}
+.content_body {
+  animation: content_body_show 0.2s ;
+  -moz-animation: content_body_show 0.2s ;
+  /* Firefox */
+  -webkit-animation: content_body_show 0.2s ;
+  /* Safari and Chrome */
+  -o-animation: content_body_show 0.2s ;
+  /* Opera */
+}
 
 .navbar_title {
   display: inline-block;
@@ -120,8 +157,88 @@ a {
 .nav .navopen {
   border-left: 3px solid #2361AE;
 }
-.nav .navopen .nav-sub li {
+@-webkit-keyframes nav_bar_show {
+  0% {
+    padding-left: 0px;
+  }
+  20% {
+    padding-left: 4px;
+  }
+  40% {
+    padding-left: 8px;
+  }
+  60% {
+    padding-left: 12px;
+  }
+  80% {
+    padding-left: 16px;
+  }
+  100% {
+    padding-left: 20px;
+  }
+}
+@-moz-keyframes nav_bar_show {
+  0% {
+    padding-left: 0px;
+  }
+  20% {
+    padding-left: 4px;
+  }
+  40% {
+    padding-left: 8px;
+  }
+  60% {
+    padding-left: 12px;
+  }
+  80% {
+    padding-left: 16px;
+  }
+  100% {
+    padding-left: 20px;
+  }
+}
+@keyframes nav_bar_show {
+  0% {
+    padding-left: 0px;
+  }
+  20% {
+    padding-left: 4px;
+  }
+  40% {
+    padding-left: 8px;
+  }
+  60% {
+    padding-left: 12px;
+  }
+  80% {
+    padding-left: 16px;
+  }
+  100% {
+    padding-left: 20px;
+  }
+}
+.nav_bar_li {
+  animation: nav_bar_show 0.2s ;
+  -moz-animation: nav_bar_show 0.2s ;
+  /* Firefox */
+  -webkit-animation: nav_bar_show 0.2s ;
+  /* Safari and Chrome */
+  -o-animation: nav_bar_show 0.2s ;
+  /* Opera */
   padding-left: 20px;
+}
+.nav > .nav_bar_li:hover {
+  background-color: #EEE;
+}
+.nav > li > a {
+  cursor: pointer;
+}
+.nav > li > a:focus {
+  border: none;
+}
+a:focus,
+input:focus {
+  outline: 0px none !important;
 }
 
 .ml {
@@ -230,7 +347,7 @@ a {
   .header_item {
     color: #FFF;
     line-height: 75px;
-    text-align: right;
+    text-align: center;
   }
   .logo {
     font-size: 35px;
@@ -252,7 +369,6 @@ a {
   }
   .dropdown-menu {
     left: -120px;
-    text-align: right;
   }
   .nav_arrow {
     display: block;
@@ -329,4 +445,12 @@ body {
 }
 .top_bar {
   padding-left: 100px;
+}
+.top_photos {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.self_lnfo_list {
+  margin-top: 20px;
 }

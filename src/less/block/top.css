@@ -134,7 +134,7 @@
     .header_item{
         color: #FFF;
         line-height: 75px;
-        text-align: right;
+        text-align: center;
     }
     .logo{
         font-size: 35px;
@@ -156,7 +156,6 @@
     }
     .dropdown-menu{
         left:-120px;
-        text-align: right;
     }
 
     .nav_arrow{
@@ -190,6 +189,14 @@ body {
 }
 .top_bar{
     padding-left:100px;
+}
+.top_photos{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+}
+.self_lnfo_list{
+    margin-top: 20px;
 }
 
 

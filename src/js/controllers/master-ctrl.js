@@ -5,7 +5,7 @@
 angular.module('ework-ui')
     .controller('MasterCtrl', ['$scope', '$log','$state','ProjectService','MenusService', MasterCtrl]);
 
-function MasterCtrl($scope, $log,$state,MenusService) {
+function MasterCtrl($scope, $log,$state,ProjectService,MenusService) {
     $scope.topMenus = {};
 
     if(MenusService){

@@ -66,3 +66,25 @@ body{
     color: #BBB;
 }
 
+a:focus,input:focus{
+    outline: 0px none !important;
+}
+
+@-webkit-keyframes content_body_show{
+    from { margin-top:50px;}
+    to {   margin-top:0px;}
+}
+@-moz-keyframes content_body_show{
+    from { margin-top:50px;}
+    to {   margin-top:0px;}
+}
+@keyframes content_body_show{
+    from { margin-top:50px;}
+    to {   margin-top:0px;}
+}
+.content_body{
+    animation:content_body_show 0.2s ;
+    -moz-animation:content_body_show 0.2s ; /* Firefox */
+    -webkit-animation:content_body_show 0.2s ; /* Safari and Chrome */
+    -o-animation:content_body_show 0.2s ; /* Opera */
+}

@@ -18,8 +18,8 @@
                         <i class="{{leftNavMenu.icon}}"></i>
                         <span class="font-bold ng-scope" translate="aside.nav.DASHBOARD">{{leftNavMenu.name}}</span>
                     </a>
-                    <ul class="nav nav-sub dk" ng-if="leftNavMenu.open&&leftNavMenu.type!='line'" >
-                        <li class="{{(navMenu.active=='true'|| curNavSystem.key==navMenu.key)?'nav-sub-header active nav_active':''}}" ng-repeat="navMenu in leftNavMenu.menus"  ng-click="selectNav(navMenu)" ng-show="navMenu.showMenu!='false'">
+                    <ul class="nav nav-sub dk " ng-if="leftNavMenu.open&&leftNavMenu.type!='line'" >
+                        <li class="nav_bar_li {{(navMenu.active=='true'|| curNavSystem.key==navMenu.key)?'nav-sub-header active nav_active':''}}" ng-repeat="navMenu in leftNavMenu.menus"  ng-click="selectNav(navMenu)" ng-show="navMenu.showMenu!='false'">
                             <a href="">
                                 <i class="{{navMenu.icon}}" ng-if="leftNavMenu.open"></i>
                                 <span class="ng-scope" translate="aside.nav.DASHBOARD">{{navMenu.name}}</span>
@@ -47,7 +47,7 @@
                         <span class="font-bold ng-scope" translate="aside.nav.DASHBOARD">{{leftNavMenu.name}}</span>
                     </a>
                     <ul class="nav nav-sub dk" ng-if="leftNavMenu.open&&leftNavMenu.type!='line'" >
-                        <li class="{{(navMenu.active=='true'|| curNavSystem.key==navMenu.key)?'nav-sub-header active nav_active':''}}" ng-repeat="navMenu in leftNavMenu.menus"  ng-click="selectNav(navMenu)" ng-show="navMenu.showMenu!='false'">
+                        <li class="nav_bar_li {{(navMenu.active=='true'|| curNavSystem.key==navMenu.key)?'nav-sub-header active nav_active':''}}" ng-repeat="navMenu in leftNavMenu.menus"  ng-click="selectNav(navMenu)" ng-show="navMenu.showMenu!='false'">
                             <a href="">
                                 <i class="{{navMenu.icon}}" ng-if="leftNavMenu.open"></i>
                                 <span class="ng-scope" translate="aside.nav.DASHBOARD">{{navMenu.name}}</span>

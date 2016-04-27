@@ -320,7 +320,7 @@
                 },{
                     "index":"A3010",
                     "name":"报表",
-                    "icon":"fa fa-line-chart",
+                    "icon":"fa fa-bar-chart",
                     "key":"erpReportMgt",
                     "type":"",
                     "value":"",
@@ -415,10 +415,40 @@
                     "name":"系统管理",
                     "icon":"fa fa-cog",
                     "key":"sysMgt",
-                    "type":"$state",
-                    "value":"sysMgt",
-                    "href":"templates/sys/sysMgt.html",
-                    "path":"/sysMgt"
+                    "type":"",
+                    "value":"",
+                    "href":"",
+                    "path":"",
+                    "menus":[
+                        {
+                            "index":"A3031",
+                            "name":"字典管理",
+                            "icon":"fa fa-table",
+                            "key":"erpSysDict",
+                            "type":"",
+                            "value":"",
+                            "href":"",
+                            "path":""
+                        },{
+                            "index":"A3032",
+                            "name":"权限管理",
+                            "icon":"fa fa-key",
+                            "key":"erpSysRightMgt",
+                            "type":"",
+                            "value":"",
+                            "href":"",
+                            "path":""
+                        },{
+                            "index":"A3033",
+                            "name":"角色管理",
+                            "icon":"fa fa-star",
+                            "key":"erpSysRole",
+                            "type":"",
+                            "value":"",
+                            "href":"",
+                            "path":""
+                        }
+                    ]
                 }
             ]
         },{
