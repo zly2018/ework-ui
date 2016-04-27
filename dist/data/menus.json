@@ -67,13 +67,45 @@
                 },
                 {
                     "index":"A1050",
-                    "name":"工作日历",
+                    "name":"工作管理",
                     "icon":"fa fa-calendar",
                     "key":"workCalendar",
                     "href":"",
                     "type":"",
                     "value":"",
-                    "active":""
+                    "active":"",
+                    "menus":[
+                        {
+                            "index":"A1051",
+                            "name":"工作日历",
+                            "icon":"fa fa-calendar",
+                            "key":"workCalendar",
+                            "href":"",
+                            "type":"",
+                            "value":"",
+                            "active":""
+                        },
+                        {
+                            "index":"A1052",
+                            "name":"工作报告",
+                            "icon":"fa fa-pencil-square-o",
+                            "key":"workRecord",
+                            "href":"",
+                            "type":"",
+                            "value":"",
+                            "active":""
+                        },
+                        {
+                            "index":"A1053",
+                            "name":"工作计划",
+                            "icon":"fa fa-list-ol",
+                            "key":"workPlan",
+                            "href":"",
+                            "type":"",
+                            "value":"",
+                            "active":""
+                        }
+                    ]
                 },{
                     "index":"",
                     "name":"",
@@ -109,26 +141,6 @@
                             "name":"人员管理",
                             "icon":"fa fa-group",
                             "key":"personnelManagement",
-                            "href":"",
-                            "type":"",
-                            "value":"",
-                            "active":""
-                        },
-                        {
-                            "index":"A1062",
-                            "name":"工作记录",
-                            "icon":"fa fa-pencil-square-o",
-                            "key":"workRecord",
-                            "href":"",
-                            "type":"",
-                            "value":"",
-                            "active":""
-                        },
-                        {
-                            "index":"A1063",
-                            "name":"工作计划",
-                            "icon":"fa fa-list-ol",
-                            "key":"workPlan",
                             "href":"",
                             "type":"",
                             "value":"",
