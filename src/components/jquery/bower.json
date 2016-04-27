@@ -12,7 +12,7 @@
     "*.md",
     "AUTHORS.txt",
     "Gruntfile.js",
-    "package.json"
+    "project.json"
   ],
   "devDependencies": {
     "sizzle": "2.1.1-jquery.2.1.2",
