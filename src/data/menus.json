@@ -1,0 +1,727 @@
+{
+    "name": "home",
+    "key": "home",
+    "version": "0.0.1",
+    "error":"false",
+    "message":"",
+    "menus":[
+
+        {
+            "index":"A1000",
+            "name":"首页",
+            "key":"home",
+            "icon":"fa fa-home",
+            "active":"true",
+            "type":"$state",
+            "value":"home",
+            "href":"templates/index.html",
+            "path":"/",
+            "allMenus":[
+                {
+                    "index":"A1000",
+                    "name":"首页",
+                    "icon":"fa fa-home",
+                    "key":"home",
+                    "href":"",
+                    "type":"$state",
+                    "value":"home",
+                    "href":"templates/index.html",
+                    "path":"/"
+                },
+                {
+                    "index":"A1010",
+                    "name":"通讯录",
+                    "icon":"fa fa-users",
+                    "key":"addressBook",
+                    "href":""
+                },
+                {
+                    "index":"A1020",
+                    "name":"站内消息",
+                    "icon":"fa fa-comments",
+                    "key":"stationMessage",
+                    "href":"templates/messages/messages.html",
+                    "type":"$state",
+                    "value":"/messages",
+                    "active":""
+                },
+                {
+                    "index":"A1030",
+                    "name":"企业邮件",
+                    "icon":"fa fa-envelope-o",
+                    "key":"enterpriseMail",
+                    "href":"",
+                    "type":"",
+                    "value":"",
+                    "active":""
+                },
+                {
+                    "index":"A1040",
+                    "name":"待我审批",
+                    "icon":"fa fa-edit",
+                    "key":"toBeApproval",
+                    "href":"",
+                    "type":"",
+                    "value":"",
+                    "active":""
+                },
+                {
+                    "index":"A1050",
+                    "name":"工作日历",
+                    "icon":"fa fa-calendar",
+                    "key":"workCalendar",
+                    "href":"",
+                    "type":"",
+                    "value":"",
+                    "active":""
+                },{
+                    "index":"",
+                    "name":"",
+                    "icon":"",
+                    "key":"line",
+                    "href":"",
+                    "type":"line",
+                    "value":"",
+                    "active":""
+                },
+                {
+                    "index":"A1060",
+                    "name":"部门管理",
+                    "icon":"fa fa-map-marker",
+                    "key":"departmentManagement",
+                    "href":"",
+                    "type":"",
+                    "value":"",
+                    "active":"",
+                    "menus":[
+                        {
+                            "index":"A1061",
+                            "name":"部门结构",
+                            "icon":"fa fa-map",
+                            "key":"departmentStructure",
+                            "href":"",
+                            "type":"",
+                            "value":"",
+                            "active":""
+                        },
+                        {
+                            "index":"A1062",
+                            "name":"人员管理",
+                            "icon":"fa fa-group",
+                            "key":"personnelManagement",
+                            "href":"",
+                            "type":"",
+                            "value":"",
+                            "active":""
+                        },
+                        {
+                            "index":"A1062",
+                            "name":"工作记录",
+                            "icon":"fa fa-pencil-square-o",
+                            "key":"workRecord",
+                            "href":"",
+                            "type":"",
+                            "value":"",
+                            "active":""
+                        },
+                        {
+                            "index":"A1063",
+                            "name":"工作计划",
+                            "icon":"fa fa-list-ol",
+                            "key":"workPlan",
+                            "href":"",
+                            "type":"",
+                            "value":"",
+                            "active":""
+                        }
+                    ]
+                },
+                {
+                    "index":"A1070",
+                    "name":"资产管理",
+                    "icon":"fa fa-diamond",
+                    "key":"assetManagement",
+                    "href":"",
+                    "type":"",
+                    "value":"",
+                    "active":"",
+                    "menus":[
+                        {
+                            "index":"A1071",
+                            "name":"软件管理",
+                            "icon":"fa fa-cloud",
+                            "key":"softwareManagement",
+                            "href":"",
+                            "type":"",
+                            "value":"",
+                            "active":""
+                        },
+                        {
+                            "index":"A1072",
+                            "name":"硬件管理",
+                            "icon":"fa fa-cube",
+                            "key":"hardwareManagement",
+                            "href":"",
+                            "type":"",
+                            "value":"",
+                            "active":""
+                        }
+                    ]
+                },
+                {
+                    "index":"A1080",
+                    "name":"系统设置",
+                    "icon":"fa fa-cog",
+                    "key":"systemSettings",
+                    "href":"",
+                    "type":"",
+                    "value":"",
+                    "active":"",
+                    "menus":[
+                        {
+                            "index":"A1081",
+                            "name":"参数设置",
+                            "icon":"fa fa-wrench",
+                            "key":"paramSettings",
+                            "href":"",
+                            "type":"",
+                            "value":"",
+                            "active":""
+                        }
+                    ]
+                },{
+                    "index":"",
+                    "name":"",
+                    "icon":"",
+                    "key":"line",
+                    "href":"",
+                    "type":"line",
+                    "value":"",
+                    "active":""
+                },
+                {
+                    "index":"A1090",
+                    "name":"统计报表",
+                    "icon":"fa fa-line-chart",
+                    "key":"statisticsReport",
+                    "href":"",
+                    "type":"",
+                    "value":"",
+                    "active":""
+                }
+            ]
+        }
+        ,{
+            "index":"A2000",
+            "name":"CRM",
+            "key":"crm",
+            "icon":"fa fa-phone-square",
+            "type":"$state",
+            "value":"crm"
+        },{
+            "index":"A3000",
+            "name":"ERP",
+            "key":"erp",
+            "icon":"fa fa-paint-brush",
+            "type":"$state",
+            "value":"erp",
+            "allMenus":[
+                {
+                    "index":"A3000",
+                    "name":"工作台",
+                    "icon":"fa fa-th-large",
+                    "key":"erpHome",
+                    "type":"",
+                    "value":"",
+                    "href":"",
+                    "path":"",
+                    "menus":[
+                        {
+                            "index":"A3001",
+                            "name":"报班单据",
+                            "icon":"fa fa-reorder",
+                            "key":"erpOrder",
+                            "type":"$state",
+                            "value":"erpOrder",
+                            "href":"templates/erp/erpOrder.html",
+                            "path":"/erpOrder"
+                        },
+                        {
+                            "index":"A3002",
+                            "name":"退费单据",
+                            "icon":"fa fa-reorder",
+                            "key":"erpReturn",
+                            "type":"$state",
+                            "value":"erpReturn",
+                            "href":"templates/erp/erpReturn.html",
+                            "path":"/erpReturn"
+                        },
+                        {
+                            "index":"A3001",
+                            "name":"转班单据",
+                            "icon":"fa fa-reorder",
+                            "key":"erpChangeClasses",
+                            "type":"$state",
+                            "value":"erpChangeClasses",
+                            "href":"templates/erp/changeClasses.html",
+                            "path":"/erpChangeClasses"
+                        },
+                        {
+                            "index":"A3001",
+                            "name":"考勤单据",
+                            "icon":"fa fa-reorder",
+                            "key":"erpAttendanceDocument",
+                            "type":"$state",
+                            "value":"erpAttendanceDocument",
+                            "href":"templates/erp/attendanceDocument.html",
+                            "path":"/erpAttendanceDocument"
+                        },
+                        {
+                            "index":"A3001",
+                            "name":"充值单据",
+                            "icon":"fa fa-reorder",
+                            "key":"erpPrepaidDocuments",
+                            "type":"$state",
+                            "value":"erpPrepaidDocuments",
+                            "href":"templates/erp/prepaidDocuments.html",
+                            "path":"/erpPrepaidDocuments"
+                        },
+                        {
+                            "index":"A3001",
+                            "name":"取款单据",
+                            "icon":"fa fa-reorder",
+                            "key":"erpWithdrawalBill",
+                            "type":"$state",
+                            "value":"erpWithdrawalBill",
+                            "href":"templates/erp/withdrawalBill.html",
+                            "path":"/erpWithdrawalBill"
+                        },
+                        {
+                            "index":"A3001",
+                            "name":"转账单据",
+                            "icon":"fa fa-reorder",
+                            "key":"erpTransferDocuments",
+                            "type":"$state",
+                            "value":"erpTransferDocuments",
+                            "href":"templates/erp/residualClass.html",
+                            "path":"/erpTransferDocuments"
+                        },
+                        {
+                            "index":"A3001",
+                            "name":"理赔单据",
+                            "icon":"fa fa-reorder",
+                            "key":"erpClaimDocument",
+                            "type":"$state",
+                            "value":"erpClaimDocument",
+                            "href":"templates/erp/residualClass.html",
+                            "path":"/erpClaimDocument"
+                        }
+                    ]
+                },{
+                    "index":"A3010",
+                    "name":"报表",
+                    "icon":"fa fa-line-chart",
+                    "key":"erpReportMgt",
+                    "type":"",
+                    "value":"",
+                    "href":"",
+                    "path":"",
+                    "menus":[
+                        {
+                            "index":"A3011",
+                            "name":"剩余课时",
+                            "icon":"fa fa-reorder",
+                            "key":"residualClass",
+                            "type":"$state",
+                            "value":"residualClass",
+                            "href":"templates/residualClass/residualClass.html",
+                            "path":"/residualClass"
+                        },{
+                            "index":"A3012",
+                            "name":"业绩明细",
+                            "icon":"fa fa-reorder",
+                            "key":" performanceDetails",
+                            "type":"$state",
+                            "value":"performanceDetails",
+                            "href":"templates/performanceDetails/performanceDetails.html",
+                            "path":"/performanceDetails"
+                        },{
+                            "index":"A3013",
+                            "name":"报退转",
+                            "icon":"fa fa-reorder",
+                            "key":"newspaperReturn",
+                            "type":"$state",
+                            "value":"newspaperReturn",
+                            "href":"templates/newspaperReturn/newspaperReturn.html",
+                            "path":"/newspaperReturn"
+                        },{
+                            "index":"A3014",
+                            "name":"账户剩余",
+                            "icon":"fa fa-reorder",
+                            "key":"accountSurplus",
+                            "type":"$state",
+                            "value":"accountSurplus",
+                            "href":"templates/accountSurplus/accountSurplus.html",
+                            "path":"/accountSurplus"
+                        },{
+                            "index":"A3015",
+                            "name":"充值取现",
+                            "icon":"fa fa-reorder",
+                            "key":"rechargeCash",
+                            "type":"$state",
+                            "value":"rechargeCash",
+                            "href":"templates/rechargeCash/rechargeCash.html",
+                            "path":"/rechargeCash"
+                        },{
+                            "index":"A3016",
+                            "name":"账户流水",
+                            "icon":"fa fa-reorder",
+                            "key":"accountFlow",
+                            "type":"$state",
+                            "value":"accountFlow",
+                            "href":"templates/accountFlow/accountFlow.html",
+                            "path":"/accountFlow"
+                        },{
+                            "index":"A3017",
+                            "name":"考勤消耗",
+                            "icon":"fa fa-reorder",
+                            "key":"attendanceExpenditure",
+                            "type":"$state",
+                            "value":"attendanceExpenditure",
+                            "href":"templates/attendanceExpenditure/attendanceExpenditure.html",
+                            "path":"/attendanceExpenditure"
+                        },{
+                            "index":"A3019",
+                            "name":"业绩总表",
+                            "icon":"fa fa-reorder",
+                            "key":"performanceSummary",
+                            "type":"$state",
+                            "value":"performanceSummary",
+                            "href":"templates/performanceSummary/performanceSummary.html",
+                            "path":"/performanceSummary"
+                        }
+                    ]
+                },{
+                    "index":"A3020",
+                    "name":"点名表",
+                    "icon":"fa fa-tasks",
+                    "key":"Such",
+                    "type":"$state",
+                    "value":"Such",
+                    "href":"templates/Such/Such.html",
+                    "path":"/Such"
+                },{
+                    "index":"A3030",
+                    "name":"系统管理",
+                    "icon":"fa fa-cog",
+                    "key":"sysMgt",
+                    "type":"$state",
+                    "value":"sysMgt",
+                    "href":"templates/sys/sysMgt.html",
+                    "path":"/sysMgt"
+                }
+            ]
+        },{
+            "index":"A4000",
+            "name":"官网",
+            "key":"website",
+            "icon":"fa fa-lemon-o",
+            "type":"$state",
+            "value":"website"
+        },{
+            "index":"A5000",
+            "name":"微信",
+            "key":"weixin",
+            "icon":"fa fa-wechat",
+            "type":"$state",
+            "value":"weixin"
+        },{
+            "index":"A6000",
+            "name":"HR",
+            "key":"hrm",
+            "icon":"fa fa-header",
+            "type":"$state",
+            "value":"hrm",
+            "allMenus":[
+                {
+                    "index":"A6000",
+                    "name":"首页",
+                    "icon":"fa fa-home",
+                    "key":"hrmHome",
+                    "type":"$state",
+                    "value":"hrmHome",
+                    "href":"templates/hrm/hrmHome.html",
+                    "path":"/hrmHome"
+                },
+                {
+                    "index":"A6100",
+                    "name":"员工管理",
+                    "icon":"fa fa-users",
+                    "key":"hrm_staffMgt",
+                    "type":"",
+                    "value":"",
+                    "menus":[
+                        {
+                            "index":"A6101",
+                            "name":"员工列表",
+                            "icon":"fa fa-list",
+                            "key":"hrm_staffList",
+                            "type":"$state",
+                            "value":"hrm_staffList",
+                            "href":"templates/hrm/staffMgt/staffMgt.html",
+                            "path":"/hrm/staffList"
+                        },{
+                            "index":"A6102",
+                            "name":"员工新增",
+                            "icon":"fa fa-user-plus",
+                            "key":"hrm_staffAdd",
+                            "type":"$state",
+                            "value":"hrm_staffAdd",
+                            "href":"templates/hrm/staffMgt/staffAdd.html",
+                            "path":"/hrm/staffAdd"
+                        },{
+                            "index":"A6103",
+                            "name":"员工编辑",
+                            "icon":"fa fa-edit",
+                            "key":"hrm_staffEdit",
+                            "type":"$state",
+                            "value":"hrm_staffEdit",
+                            "href":"templates/hrm/staffMgt/staffEdit.html",
+                            "path":"/hrm/staffEdit"
+                        },{
+                            "index":"A6104",
+                            "name":"员工导入",
+                            "icon":"fa fa-upload",
+                            "key":"hrm_staffImport",
+                            "type":"$state",
+                            "value":"hrm_staffImport",
+                            "href":"templates/hrm/staffMgt/staffImport.html",
+                            "path":"/hrm/staffImport"
+                        },{
+                            "index":"A6105",
+                            "name":"员工信息定义",
+                            "icon":"fa fa-sticky-note-o",
+                            "key":"hrm_staffDef",
+                            "type":"$state",
+                            "value":"hrm_staffDef",
+                            "href":"templates/hrm/staffMgt/staffDef.html",
+                            "path":"/hrm/staffDef"
+                        },{
+                            "index":"A6106",
+                            "name":"员工详情",
+                            "icon":"fa fa-list",
+                            "key":"hrm_staffDetail",
+                            "type":"$state",
+                            "value":"hrm_staffDetail",
+                            "href":"templates/hrm/staffMgt/staffDetail.html",
+                            "path":"/hrm/staffDetail",
+                            "showMenu":"false"
+                        }
+                    ]
+                },
+                {
+                    "index":"A6200",
+                    "name":"人事办理",
+                    "icon":"fa fa-bell",
+                    "key":"hrmTodo",
+                    "type":"",
+                    "value":"",
+                    "menus":[
+                        {
+                            "index":"A6201",
+                            "name":"待办事项查询",
+                            "icon":"fa fa-bell-o",
+                            "key":"hrm_todoList",
+                            "type":"$state",
+                            "value":"hrm_todoList",
+                            "href":"templates/hrm/todos/todoList.html",
+                            "path":"/hrm/todoList"
+                        },
+                        {
+                            "index":"A6202",
+                            "name":"待办事项定义",
+                            "icon":"fa fa-file-word-o",
+                            "key":"hrm_todoDef",
+                            "type":"$state",
+                            "value":"hrm_todoDef",
+                            "href":"templates/hrm/todos/todoDef.html",
+                            "path":"/hrm/todoDef"
+                        },
+                        {
+                            "index":"A6203",
+                            "name":"待办事项审批",
+                            "icon":"fa fa-eye",
+                            "key":"hrm_todoApproval",
+                            "type":"$state",
+                            "value":"hrm_todoApproval",
+                            "href":"templates/hrm/todos/todoApproval.html",
+                            "path":"/hrm/todoApproval"
+                        },
+                        {
+                            "index":"A6204",
+                            "name":"关注人员提醒",
+                            "icon":"fa fa-flag",
+                            "key":"hrm_todoApproval",
+                            "type":"$state",
+                            "value":"hrm_todoApproval",
+                            "href":"templates/hrm/todos/todoApproval.html",
+                            "path":"/hrm/todoApproval"
+                        },
+                        {
+                            "index":"A6205",
+                            "name":"离职率超标",
+                            "icon":"fa fa-flag",
+                            "key":"hrm_resignationRate",
+                            "type":"$state",
+                            "value":"hrm_resignationRate",
+                            "href":"templates/hrm/todos/resignationRate.html",
+                            "path":"/hrm/resignationRate"
+                        },
+                        {
+                            "index":"A6206",
+                            "name":"离职率设置",
+                            "icon":"fa fa-flag",
+                            "key":"hrm_resignationRateSettings",
+                            "type":"$state",
+                            "value":"hrm_resignationRateSettings",
+                            "href":"templates/hrm/todos/resignationRateSettings.html",
+                            "path":"/hrm/resignationRateSettings",
+                            "showMenu":"false"
+                        }
+                    ]
+                },{
+
+                    "index":"A6300",
+                    "name":"每月提醒",
+                    "icon":"fa fa-clock-o",
+                    "key":"hrmMonthNotes",
+                    "type":"",
+                    "value":"",
+                    "menus":[
+                        {
+                            "index":"A6300",
+                            "name":"每月生日名单",
+                            "icon":"fa fa-birthday-cake",
+                            "key":"hrm_monthBirthdayList",
+                            "type":"$state",
+                            "value":"hrm_monthBirthdayList",
+                            "href":"templates/hrm/monthInfos/monthBirthdayList.html",
+                            "path":"/hrm/monthBirthdayList"
+                        }
+                    ]
+                },{
+
+                    "index":"A6400",
+                    "name":"自动更新",
+                    "icon":"fa fa-tasks",
+                    "key":"hrmTasks",
+                    "type":"",
+                    "value":"",
+                    "menus":[
+                        {
+                            "index":"A6401",
+                            "name":"五年陈",
+                            "icon":"fa fa-star-half-o",
+                            "key":"hrm_5years",
+                            "type":"$state",
+                            "value":"hrm_5years",
+                            "href":"templates/hrm/monthInfos/5years.html",
+                            "path":"/hrm/5years"
+                        },
+                        {
+                            "index":"A6402",
+                            "name":"十年醇",
+                            "icon":"fa fa-star",
+                            "key":"hrm_10years",
+                            "type":"$state",
+                            "value":"hrm_10years",
+                            "href":"templates/hrm/autoTasks/10years.html",
+                            "path":"/hrm/10years"
+                        }
+                    ]
+                },
+                {
+                    "index":"",
+                    "name":"",
+                    "icon":"",
+                    "key":"line",
+                    "href":"",
+                    "type":"line",
+                    "value":"",
+                    "active":""
+                },{
+                    "index":"A6500",
+                    "name":"报表",
+                    "icon":"fa fa-bar-chart",
+                    "key":"hrmReports",
+                    "type":"",
+                    "value":"",
+                    "menus":[
+                        {
+                            "index":"A6501",
+                            "name":"人事异动表",
+                            "icon":"fa fa-history",
+                            "key":"hrm_monthChanges",
+                            "type":"$state",
+                            "value":"hrm_monthChanges",
+                            "href":"templates/hrm/reports/monthChanges.html",
+                            "path":"/hrm/monthChanges"
+                        },
+                        {
+                            "index":"A6502",
+                            "name":"人力资源分析",
+                            "icon":"fa fa-pie-chart",
+                            "key":"hrm_monthChangesReport",
+                            "type":"$state",
+                            "value":"hrm_monthChangesReport",
+                            "href":"templates/hrm/reports/monthChangesReport.html",
+                            "path":"/hrm/monthChangesReport"
+                        },{
+                            "index":"A6503",
+                            "name":"离职率分析",
+                            "icon":"fa fa-area-chart",
+                            "key":"hrm_turnoverRateAnalysis",
+                            "type":"$state",
+                            "value":"hrm_turnoverRateAnalysis",
+                            "href":"templates/hrm/reports/turnoverRateAnalysis.html",
+                            "path":"/hrm/turnoverRateAnalysis"
+                        }
+                    ]
+                },
+                {
+                    "index":"",
+                    "name":"",
+                    "icon":"",
+                    "key":"line",
+                    "href":"",
+                    "type":"line",
+                    "value":"",
+                    "active":""
+                },{
+                    "index":"A6600",
+                    "name":"部门管理",
+                    "icon":"fa fa-sitemap",
+                    "key":"hrm_departmentMgt",
+                    "type":"$state",
+                    "value":"hrm_departmentMgt",
+                    "href":"templates/hrm/departmentMgt/departmentMgt.html",
+                    "path":"/hrm/departmentMgt"
+                }
+            ]
+        },{
+            "index":"A7000",
+            "name":"财务",
+            "key":"financial",
+            "icon":"fa fa-bar-chart",
+            "type":"$state",
+            "value":"financial"
+        },{
+            "index":"A8000",
+            "name":"业绩",
+            "key":"performance",
+            "icon":"fa fa-pie-chart",
+            "type":"$state",
+            "value":"performance"
+        }
+    ]
+}

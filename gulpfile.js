@@ -1,3 +1,6 @@
+var dist = 'dist';
+//var dist = 'D:/2016/myproject/cas-webapp/src/main/webapp/WEB-INF/view/default';
+
 var gulp = require('gulp'),
     usemin = require('gulp-usemin'),
     wrap = require('gulp-wrap'),
@@ -16,7 +19,8 @@ var paths = {
     images: 'src/img/**/*.*',
     templates: 'src/templates/**/*.html',
     index: 'src/index.html',
-    bower_fonts: 'src/components/**/*.{ttf,woff,eof,svg,woff2}'
+    bower_fonts: 'src/components/**/*.{ttf,woff,eof,svg,woff2}',
+    data:'src/data/**/*.*'
 };
 
 /**
@@ -49,7 +53,7 @@ gulp.task('copy-bower_fonts', function() {
 /**
  * Handle custom files
  */
-gulp.task('build-custom', ['custom-images', 'custom-js', 'custom-less', 'custom-templates']);
+gulp.task('build-custom', ['custom-images', 'custom-js', 'custom-less', 'custom-templates','custom-data']);
 
 gulp.task('custom-images', function() {
     return gulp.src(paths.images)
@@ -74,6 +78,11 @@ gulp.task('custom-templates', function() {
     return gulp.src(paths.templates)
         .pipe(minifyHTML())
         .pipe(gulp.dest('dist/templates'));
+});
+
+gulp.task('custom-data', function() {
+    return gulp.src(paths.data)
+        .pipe(gulp.dest(dist+'/data'));
 });
 
 /**

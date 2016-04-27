@@ -15,9 +15,9 @@
 2 info using npm@1.4.28
 3 info using node@v0.10.32
 4 verbose node symlink E:\Program Files\nodejs\\node.exe
-5 warn package.json ework-ui@0.0.1 No repository field.
-6 warn package.json gulp-minify-css@1.2.3 No repository field.
-7 verbose readDependencies using package.json deps
+5 warn project.json ework-ui@0.0.1 No repository field.
+6 warn project.json gulp-minify-css@1.2.3 No repository field.
+7 verbose readDependencies using project.json deps
 8 verbose cache add [ 'gulp-usemin@^0.3.16', null ]
 9 verbose cache add name=undefined spec="gulp-usemin@^0.3.16" args=["gulp-usemin@^0.3.16",null]
 10 verbose parsed url { protocol: null,

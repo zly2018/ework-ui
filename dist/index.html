@@ -14,21 +14,18 @@
     <link rel="stylesheet" type="text/css" href="css/eWorkUI.min.css">
     <script type="text/javascript" src="js/eWorkUI.min.js"></script>
 </head>
-<body ng-controller="HelloWorldCtrl">
-    <!--面包屑-->
-    <ul class="breadcrumb">
-        <li>
-            <a href="#">
-                <i class="fa fa-home"></i>
-            </a>
-        </li>
-        <li>
-            <a href="javascript:void(0)" ng-click="hello()">{{message}}</a>
-        </li>
-    </ul>
+<body ng-controller="MasterCtrl">
+<div ng-include="'templates/block/top.html'"></div>
 
-    <div class="row" align="center" ng-click="hello()">
-        <img src="img/fu01.jpg" style="width:600px;height:600px;">
+<!-- Main Content -->
+<div class="container content">
+    <div class="col-sm-4 col-md-3 col-lg-2 left_nav">
+        <div ng-include="'templates/block/left_nav.html'"></div>
     </div>
+    <div class="col-sm-8 col-md-9 col-lg-10 right_content">
+        <div ui-view></div>
+    </div>
+
+</div>
 </body>
 </html>
