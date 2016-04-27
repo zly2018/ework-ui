@@ -106,47 +106,6 @@
                             "active":""
                         }
                     ]
-                },{
-                    "index":"",
-                    "name":"",
-                    "icon":"",
-                    "key":"line",
-                    "href":"",
-                    "type":"line",
-                    "value":"",
-                    "active":""
-                },
-                {
-                    "index":"A1060",
-                    "name":"部门管理",
-                    "icon":"fa fa-map-marker",
-                    "key":"departmentManagement",
-                    "href":"",
-                    "type":"",
-                    "value":"",
-                    "active":"",
-                    "menus":[
-                        {
-                            "index":"A1061",
-                            "name":"部门结构",
-                            "icon":"fa fa-map",
-                            "key":"departmentStructure",
-                            "href":"",
-                            "type":"",
-                            "value":"",
-                            "active":""
-                        },
-                        {
-                            "index":"A1062",
-                            "name":"人员管理",
-                            "icon":"fa fa-group",
-                            "key":"personnelManagement",
-                            "href":"",
-                            "type":"",
-                            "value":"",
-                            "active":""
-                        }
-                    ]
                 },
                 {
                     "index":"A1080",
@@ -530,6 +489,48 @@
                     ]
                 },
                 {
+                    "index":"A1060",
+                    "name":"部门管理",
+                    "icon":"fa fa-sitemap",
+                    "key":"hrmDepartmentManagement",
+                    "href":"",
+                    "type":"",
+                    "value":"",
+                    "active":"",
+                    "menus":[
+                        {
+                            "index":"A1061",
+                            "name":"部门结构",
+                            "icon":"fa fa-map",
+                            "key":"hrmDepartmentStructure",
+                            "href":"",
+                            "type":"",
+                            "value":"",
+                            "active":""
+                        },
+                        {
+                            "index":"A1062",
+                            "name":"人员管理",
+                            "icon":"fa fa-group",
+                            "key":"hrmPersonnelManagement",
+                            "href":"",
+                            "type":"",
+                            "value":"",
+                            "active":""
+                        }
+                    ]
+                },
+                {
+                    "index":"",
+                    "name":"",
+                    "icon":"",
+                    "key":"line",
+                    "href":"",
+                    "type":"line",
+                    "value":"",
+                    "active":""
+                },
+                {
                     "index":"A6200",
                     "name":"人事办理",
                     "icon":"fa fa-bell",
@@ -576,6 +577,26 @@
                             "value":"hrm_todoApproval",
                             "href":"templates/hrm/todos/todoApproval.html",
                             "path":"/hrm/todoApproval"
+                        }
+                    ]
+                },{
+
+                    "index":"A6300",
+                    "name":"提醒事项",
+                    "icon":"fa fa-clock-o",
+                    "key":"hrmMonthNotes",
+                    "type":"",
+                    "value":"",
+                    "menus":[
+                        {
+                            "index":"A6300",
+                            "name":"每月生日名单",
+                            "icon":"fa fa-birthday-cake",
+                            "key":"hrm_monthBirthdayList",
+                            "type":"$state",
+                            "value":"hrm_monthBirthdayList",
+                            "href":"templates/hrm/monthInfos/monthBirthdayList.html",
+                            "path":"/hrm/monthBirthdayList"
                         },
                         {
                             "index":"A6205",
@@ -597,26 +618,6 @@
                             "href":"templates/hrm/todos/resignationRateSettings.html",
                             "path":"/hrm/resignationRateSettings",
                             "showMenu":"false"
-                        }
-                    ]
-                },{
-
-                    "index":"A6300",
-                    "name":"每月提醒",
-                    "icon":"fa fa-clock-o",
-                    "key":"hrmMonthNotes",
-                    "type":"",
-                    "value":"",
-                    "menus":[
-                        {
-                            "index":"A6300",
-                            "name":"每月生日名单",
-                            "icon":"fa fa-birthday-cake",
-                            "key":"hrm_monthBirthdayList",
-                            "type":"$state",
-                            "value":"hrm_monthBirthdayList",
-                            "href":"templates/hrm/monthInfos/monthBirthdayList.html",
-                            "path":"/hrm/monthBirthdayList"
                         }
                     ]
                 },{
@@ -707,15 +708,6 @@
                     "type":"line",
                     "value":"",
                     "active":""
-                },{
-                    "index":"A6600",
-                    "name":"部门管理",
-                    "icon":"fa fa-sitemap",
-                    "key":"hrm_departmentMgt",
-                    "type":"$state",
-                    "value":"hrm_departmentMgt",
-                    "href":"templates/hrm/departmentMgt/departmentMgt.html",
-                    "path":"/hrm/departmentMgt"
                 }
             ]
         },{
