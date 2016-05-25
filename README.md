@@ -13,8 +13,12 @@ git clone https://github.com/zly2014/ework-ui.git</br>
 
 2、安装npm: </br>
     npm install --save  </br>
-3、安装gulp插件:    </br>
-    npm install gulp-usemin gulp-wrap gulp-connect gulp-watch gulp-minify-css gulp-uglify gulp-concat gulp-less gulp-rename gulp-minify-html --save 
+3、安装gulp以及插件:    </br>
+    先安装gulp
+    npm install gulp --save
+    
+    安装插件
+    npm install  gulp-usemin gulp-wrap gulp-connect gulp-watch gulp-minify-css gulp-uglify gulp-concat gulp-less gulp-rename gulp-minify-html --save 
 </br>
 4、项目构建：gulp build </br>
 
